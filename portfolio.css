@@ -45,6 +45,7 @@ body
 
 .buttons1 button 
 {
+ display: flex;
     margin-left: 10px;
     padding: 10px 18px;
     background-color: #ed4e6b;
@@ -79,6 +80,7 @@ body
 
 .buttons2 a 
 {
+ display: flex;
     background-color: #9ff375;
     color: #fa5705;
     padding: 20px 80px;
