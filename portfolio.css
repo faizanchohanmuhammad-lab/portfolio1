@@ -16,7 +16,6 @@ body
 
 .header 
 {
-    display: flex;
     justify-content: space-between;
     align-items: center;
     background-color:rgb(95, 95, 247);
@@ -72,7 +71,6 @@ body
 
 .buttons2
  {
-    display: flex;
     justify-content: center;
     gap: 25px;
     margin: 30px auto;
@@ -165,4 +163,5 @@ span{
  box-shadow: 0 4px 10px green;
  border-radius: 10px;
 }
+
 
