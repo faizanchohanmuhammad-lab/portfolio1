@@ -1,24 +1,163 @@
 <!DOCTYPE html>
 <html lang="en">
-
+<head>
     <style>
+        
+*{
+ 
+    margin: 0;
+    padding: 0;    
+}
+
+body 
+{
+    background:rgb(125, 195, 252);
+    color: #202020;
+    padding: 20px;
+}
+
+
+.header 
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:rgb(93, 93, 245);
+    padding: 20px 30px;
+    border-radius: 1000px;
+    color: white;
+    max-width: 1240px;
+    margin: auto;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.header h1
+ {
+    font-size: 28px;
+    color: #fff;
+}
+
+.search input[type="text"] 
+{
+    padding: 10px 20px;
+    width: 300px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+}
+
+.buttons1 button 
+{
+    margin-left: 10px;
+    padding: 10px 18px;
+    background-color: #ed4e6b;
+    border: none;
+    border-radius: 5px;
+   box-shadow: 01px 2px black;
+    transform: scale(1.0005);
+ 
+}
+
+.buttons1 button:hover 
+{
+    background-color:rgb(237, 237, 113);
+    transform: scale(1.05);
+}
+
+.buttons1 a
+ {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+
+.buttons2
+ {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin: 30px auto;
+    max-width: 1240px;
+}
+
+.buttons2 a 
+{
+    background-color: #9ff375;
+    color: #fa5705;
+    padding: 20px 80px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: bold;
+      transform: scale(1.0005);
+}
+
+.buttons2 a:hover 
+{
+    background-color: #8cf3af;
+    transform: scale(1.05);
+}
         body{
             background-image: url('web.jpg');
         }
     </style>
-<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>contact me</title>
+    <title>Document</title>
 </head>
 <body>
-    <center>
-        <h1>
-            Email: </h1> faizanchohanmuhammad@gmail.com<br>
-          <h1>  Phone: </h1>03415872278<br>
-           <h1> Address:</h1>Pakistan,Punjab,bhakkar
-       
-    </center>
-    
+        <h2 style="font-style: italic; font-size: xx-large; align-items: center;">👨‍💻Chohan<span style="font-size: larger; "><span>Developed</span> </h2>
+
+
+    <div class="header">
+        <h1>My Personal Portfolio</h1>
+
+        <div class="search">
+            <input type="text" placeholder="Search. . . . .">
+        </div>
+
+        <div class="buttons1">
+            <button><a href="singup.html" title="signup">Signup</a></button>
+            <button><a href="login.html" title="login">Login</a></button>
+        </div>
+        
+    </div>
+
+
+    <div class="buttons2">
+        <a href="index.html" title="view Home Page">HomePage</a>
+        <a href="About.html" title="About me">About me</a>
+        <a href="projects.html" title="My projects">My Projects</a>
+        <a href="contact.html" title="Contact me">Contact me</a>
+    </div>
+    <h1>Muhammad Faizan</h1>
+        <p>Email:Faizanchohanmuhammad@gmail.com |Phone:03415872278</p>
+        <p>Address:Bhakkar,Pakistan</p>
+        <h1>Career</h1>
+        <p>A motivated student eager to learn programming and contribute to IT projects</p>
+        <h2>Education</h2>
+                <ol>
+                    <li>Intermediate in computer science---GCT bhakkar(2025) </li>
+                    <li>Matriculation in Scinece --Govt.High School (2023)
+                    </li>
+                    </ol>
+                <h1>Skills</h1>
+                <ul>
+                    <li>C++ programming
+                    </li>
+                    <li>HTML & CSS & java script</li>
+                    <li>MS OFFICE(word,Exel,Powerpoint)</li>
+                    <li>Graphis Designer</li>
+                    <li>(DBMS)data base managment(My sql)</li>
+                    <li>network administrator</li>
+                    <li>web Designer</li>
+                    
+                </ul>
+                <h2>Experiance</h2>
+                <p>Founder--no professional experiance yet.</p>
+                <h1>Hobbies</h1>
+                <p>Reading,Coding, Sports</p>
 </body>
 </html>
