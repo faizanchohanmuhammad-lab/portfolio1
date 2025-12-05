@@ -1,0 +1,81 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Products</title>
+<style>
+body
+{
+    font-family:Arial;
+    background:black;
+}
+.products
+{
+    display:flex;
+    flex-wrap:wrap;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.12);
+    gap:20px;
+    justify-content:center;
+    margin-top:30px;
+}
+.card:hover 
+{
+  transform: translateY(-6px);
+  box-shadow: 0 12px 30px rgba(0,0,0,0.18);
+}
+.card
+{
+    background:white;
+    width:250px;
+    padding:15px;
+    border-radius:10px;
+    box-shadow:0 0 10px #aaa;
+    text-align:center;
+}
+.card img
+{
+    width:100%;
+    height:180px;
+    object-fit:cover;
+    border-radius:10px;
+}
+.price
+{
+    color:green;
+    font-size:20px;
+    font-weight:bold;
+}
+</style>
+</head>
+<body>
+<h1 style="text-align:center; color:white"> Cat Shop Services</h1>
+<div class="products">
+            <div class="card">
+            <img src="uploads/b.jpg" alt="">
+            <h3>Milo</h3>
+            <p class="price">Rs: 55000</p>
+        </div>
+            <div class="card">
+            <img src="uploads/c.jpg" alt="">
+            <h3>Tiger</h3>
+            <p class="price">Rs: 44900</p>
+        </div>
+            <div class="card">
+            <img src="uploads/e.jpeg" alt="">
+            <h3>Simba</h3>
+            <p class="price">Rs: 55500</p>
+        </div>
+            <div class="card">
+            <img src="uploads/f.jpg" alt="">
+            <h3>cat B</h3>
+            <p class="price">Rs: 15000</p>
+        </div>
+            <div class="card">
+            <img src="uploads/watermarked-image.png" alt="">
+            <h3>Gift</h3>
+            <p class="price">Rs: 1222</p>
+        </div>
+    </div>
+</body>
+</html>
